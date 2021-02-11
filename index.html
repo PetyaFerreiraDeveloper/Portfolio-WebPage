@@ -1,85 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Porfolio Page </title>
-        <meta charset="utf-8">
-        <meta name="author" content="Petya Ferreira">
-        <meta name="description" content=" This is a page showing some of the projects Petya Ferreira has worked on.">
-        <link rel="stylesheet" href="portfolio.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
 
-    <body>
-        <header>
-            <nav id="navbar">
-                <ul class="nav-list">
-                    <li><a href="#welcome-section">About</a></li>
-                    <li><a href="#projects">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+<head>
+    <title> Porfolio Page </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Petya Ferreira">
+    <meta name="description" content=" This is a page showing some of the projects Petya Ferreira has worked on.">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-            </nav>
-        </header>
-        <main>
-            <section id="welcome-section">
-                <h1> Hi I am Petya! </h1>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <div class="frontpage-text">
+                <h1> Hey! I am Petya. </h1>
                 <p>Promising software developer</p>
-            </section>
-
-            <section id="projects">
-                <h2>Click on any tile to review the project.</h2>
-
-                <div class="project-grid">
-                    <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/MWbYzmq" target="_blank" id="personal-page">
-                        <!-- <div class="project-image"> -->
-                            <img src="Images/petya_cv_face_3x4.jpg" alt="Personal Page project">
-                        <!-- </div> -->
-                        <p class="project-name">Personal Page</p>
-                    </a>
-                    <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/XWNryrw" target="_blank" id="product-page">
-                        <!-- <div class="project-image"> -->
-                            <img src="Images/logo.jpeg" alt="Product Page project">
-                        <!-- </div> -->
-                        <p class="project-name">Product Page</p>
-                    </a>
-                    <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/OJbPaWp" target="_blank" d="documentation-page">
-                        <!-- <div class="project-image"> -->
-                            <img src="Images/OurBaby_Logo.png" alt="Documentation page project">
-                        <!-- </div> -->
-                        <p class="project-name">Documentation Page</p>
-                    </a>
-                    <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/OJbPajm" target="_blank" id="questionary-page">
-                        <!-- <div class="project-image"> -->
-                            <img src="Images/Screenshot 2020-12-16 at 13.14.22.png" alt="Questionary Page project">
-                        <!-- </div> -->
-                        <p class="project-name">
-                        Questionary Page
-                        </p>
-                    </a>
-                </div>
-        </section>
-        </main>
-    
-        <footer id="contact-links">
-            <div class="contact-header">
-                <h3>Lets work together!</h3>
-                <p><em>Find more about me in the links below:</em></p>
-                <br><br><br>
             </div>
-            <div id="profile-link">
-                
-                    <a class="link" id="youtube" href="https://www.youtube.com/channel/UCt1QTbHaFvCWsAsR34jLzrQ" target="_blank"> 
+            <div class="video-container">
+                <video playsinline autoplay loop muted poster="Images/background-pic.jpeg">
+                        <source src="background-movie.mp4" type="video/mp4">
+                    </video>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Click on any tile to review the project.</h2>
+
+            <div class="project-grid">
+                <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/MWbYzmq" target="_blank" id="personal-page">
+                    <!-- <div class="project-image"> -->
+                    <img src="Images/petya_cv_face_3x4.jpg" alt="Personal Page project">
+                    <!-- </div> -->
+                    <p class="project-name">Personal Page</p>
+                </a>
+                <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/XWNryrw" target="_blank" id="product-page">
+                    <!-- <div class="project-image"> -->
+                    <img src="Images/logo.jpeg" alt="Product Page project">
+                    <!-- </div> -->
+                    <p class="project-name">Product Page</p>
+                </a>
+                <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/OJbPaWp" target="_blank" d="documentation-page">
+                    <!-- <div class="project-image"> -->
+                    <img src="Images/OurBaby_Logo.png" alt="Documentation page project">
+                    <!-- </div> -->
+                    <p class="project-name">Documentation Page</p>
+                </a>
+                <a class="project-tile" href="https://codepen.io/PetyaDeveloper21/pen/OJbPajm" target="_blank" id="questionary-page">
+                    <!-- <div class="project-image"> -->
+                    <img src="Images/Screenshot 2020-12-16 at 13.14.22.png" alt="Questionary Page project">
+                    <!-- </div> -->
+                    <p class="project-name">
+                        Questionary Page
+                    </p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact-links">
+        <div class="contact-header">
+            <h3>Lets work together!</h3>
+            <p><em>Find more about me in the links below:</em></p>
+            <br><br><br>
+        </div>
+        <div id="profile-link">
+
+            <a class="link" id="youtube" href="https://www.youtube.com/channel/UCt1QTbHaFvCWsAsR34jLzrQ" target="_blank"> 
                     Youtube</a>
-                    <a class="link" id="github" href="https://github.com/PetyaFerreiraDeveloper?tab=projects" target="_blank"> 
+            <a class="link" id="github" href="https://github.com/PetyaFerreiraDeveloper?tab=projects" target="_blank"> 
                     GitHub</a>
-                    <a class="link" id="linkedin" href="https://www.linkedin.com/in/petyanaydenova/" target="_blank"> 
+            <a class="link" id="linkedin" href="https://www.linkedin.com/in/petyanaydenova/" target="_blank"> 
                     LinkedIn</a>
 
-            
-            </div>
-           
-            </footer>
-        </footer>
 
-    </body>
+        </div>
+
+    </footer>
+    </footer>
+
+</body>
+
 </html>
